@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Data Analysis for E-Commerce Challenge</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<h1><strong>Data Analysis for E-Commerce Challenge</strong>
+				</div>
+				<div class="inner">
+					<a href="https://pgandika.github.io/Andika_Gumilang_Portfolio/"class="button small">Home</a>
+					<a href="https://pgandika.github.io/Andika_Gumilang_Portfolio/"class="button small">Projects</a>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h1><Strong>Data Analysis for E-Commerce Challenge</Strong></h1>
+						</header>
+						<br>
+						<div class="row gtr-50 gtr-uniform">
+								<div class="col-5"><span class="image fit"><img src="images/sql_assignment_cover.png"></span></div>
+							</div><br>
+						<h2><strong>Project Summary</strong></h2>
+						<p>Improving the Understanding of SQL function to help access, read, manipulate, and analyze the data stored in the database and generate useful insights to drive an informed decision-making process, and this 3 main things that I did in this project :</p>
+						<ol>
+							<li>Created SQL query based using aggregate functions, date format, joins, CTE, and window function.</li>
+							<li>Creating EDA, Analyze Monthly Sales Growth and creating Customer Analytics</li>
+							<li>Created the insights for the project </li>
+					  	</ol>
+						<br>
+
+						<h2><strong>Project Background & Dataset</strong></h2>
+						<h3>Project Background</h3>
+							<p>Provide data and analysis regarding the condition of the company, including sales growth, customer growth,transaction growth, actual active customer,  Explore and get the hands on Structured Query Language (SQL). As a data analyst, we are expected to use SQL to formating and cleaning the data, joining the data, using CTE and Window function also generating useful insights from the data. </p>
+					</section>
+						<h3>Dataset : </h3>
+							<p>The dataset used is data from the DQLab Store which is an e-commerce where buyers and sellers meet each other. Users can buy goods from other users who sell. Each user can be both a buyer and a seller.
+							There are 4 tables used in this project:</p>
+							<div class="row gtr-50 gtr-uniform">
+								<div class="col-5"><span class="image fit"><img src="images/c1.jpg"></span></div>
+							</div>
+							<p>The tables that will be used in this project are:</p>
+							<ol>	
+							<li>orders table: Contains data related to sales transactions from Jan 2019 — Mare 2020</li>
+							<li>order_details table: Contains data related to detail product and price each product (Apr — Jun 2004)</li>
+							<li>users table: Contains profile data of consumers </li>
+							<li>Products table: Contains profile data of detail product, category and price</li>
+						</ol>
+						<p><h2>Project Files</h2></p>
+						For a more comprehensive analysis and visualization, please open the project files.
+						<ul>
+							<li><a href="https://console.cloud.google.com/bigquery?sq=846791540182:ae10efc2fca04689adb5d2f63af7861a">Query Code - Google BigQuery</a></li>
+							<li><a href="https://github.com/pgandika/RevoU-SQL-Project">Github Repository</a></li>
+						</ul>
+					</section>
+
+				<!-- Four -->
+				<section id="four">
+						<p><b>1.The 10 highest transactions of users 12476</b></p>
+						<script src="https://pastebin.com/embed_js/bMWAN9wN?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/c2.JPG"></span></div>
+						</div>
+						<p><br>The highest transaction of user 12476 is transaction on 23 dec with 12Mio Value</p>
+
+						<p><b>2.Transactions per month in 2020</b></p>
+						<script src="https://pastebin.com/embed_js/HSdGE922?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/C3.JPG"></span></div>
+						</div>
+						<p><br>Mei 2020 is the month with higest total transaction.</p>
+
+						<p><b>3. Buyer with the highest average transaction in January 2020</b></p>
+						<script src="https://pastebin.com/embed_js/T41ScsRS?theme=dark""></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/c4.JPG"></span></div>
+						</div>
+						<p><br>buyer_id 11140 is the highest value transaction in January 2020</p>
+
+						<p><b>4. Big transaction in December 2019</b></p>
+						<p>Show all transactions with a minimum value of 20,000,000 in December 2019. Show table of nama_pembeli, nilai transaksi and tanggal_transaksi, sort alphabetically by buyer.</p>
+						<script src="https://pastebin.com/embed_js/UxbFG4B6?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/c5.JPG"></span></div>
+						</div>
+						<br>
+						<p><b>5. Best seller product category in 2020</b></p>
+						<p>Show 5 categories with the highest total quantity in 2020, only for transactions that have been sent to buyers. Show table of category, total_quantity, and total_price.</p>
+						<script src="https://pastebin.com/embed_js/tzT8efb6?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/c6.JPG"></span></div>
+						</div>
+						<br>
+						<p><b>6. Buyer with high value</b></p>
+						<p>Show buyers who have transacted more than 5 times and each transaction more than 2,000,000. Show table of nama_pembeli, jumlah_transaksi, total_nilai_transaksi, and min_nilai_transaksi, sort by the highest total_nilai_transaksi.</p>
+						<script src="https://pastebin.com/embed_js/avip1yc2?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/c7.JPG"></span></div>
+						</div>
+						<br>
+						<p><b>7. Dropshipper</b></p>
+						<p>Show buyers with 10 or more transactions whose shipping address is different for each transaction. Show table of nama_pembeli, jumlah_transaksi, distinct_kodepos, total_nilai_transaksi, and avg_nilai_transaksi, sort by the highest number of transactions.</p>
+						<script src="https://pastebin.com/embed_js/H6BHDW22?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/C8.JPG"></span></div>
+						</div>
+						<br>
+						<p><b>8.Offline reseller</b></p>
+						<p>Show buyers with 8 or more transactions whose shipping address is the same as the main shipping address and the average total quantity per transaction is more than 10. Show table of nama_pembeli, jumlah_transaksi, total_nilai_transaksi, avg_nilai_transaksi, and avg_quantity_per_transaksi, sort by the highest total_nilai_transaksi.</p>
+						<script src="https://pastebin.com/embed_js/yCT459YB?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/c9.JPG"></span></div>
+						</div>
+						<br>
+						<p><b>9. Buyer and seller at once</b></p>
+						<p>Show the seller who has transacted as a buyer at least 7 times. Show table of nama_pengguna, jumlah_transaksi_beli, and jumlah_transaksi_jual, sort alphabetically by nama_pengguna</p>
+						<script src="https://pastebin.com/embed_js/jNWnZmab?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/c10.JPG"></span></div>
+						</div>
+						<br>
+						<p><b>10. Transaction time</b></p>
+						<p>Show the average time from transaction made to payment. Show table of tahun_bulan, jumlah_transaksi, avg_lama_dibayar, min_lama_dibayar, and max_lama_dibayar, group by month and sort by tahun_bulan.</p>
+						<script src="https://pastebin.com/embed_js/zEpnm6G9?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/c11.JPG"></span></div>
+						</div>
+						<br>
+
+						<p><b>Conclusion</b></p>
+						<p>Based on the data that we have obtained through SQL queries, we can conclude that:</p>
+						<ol>
+							<li>xyz.com's performance decreased significantly in the 2nd quarter, as seen from the value of sales and revenue which dropped by 20% and 24%,</li>
+							<li>the acquisition of new customers is also not very good, and slightly decreased compared to the previous quarter.</li>
+							<li>The interest of new customers to shop at xyz.com is still lacking, only about 56% have made transactions. It is recommended that the Product team need to study customer behavior and make product improvements, so that the conversion rate (register to transaction) can increase.</li>
+							<li>Product categories S18 and S24 contribute about 50% of total orders and 60% of total sales, so xyz.com should focus on developing categories S18 and S24.</li>
+							<li>xyz.com's customer retention rate is also very low at only 24%, meaning that many customers who have transacted in the 1st quarter do not return to order in the 2nd quarter (no repeat orders).</li>
+							<li>xyz.com experienced negative growth in the 2nd quarter and needs to make a lot of improvements both in terms of products and marketing business, if you want to achieve the target and have positive growth in the 3rd quarter. The low retention rate and conversion rate can be an early diagnosis that customers are not interested/unsatisfied/disappointed in shopping at xyz.com.</li>
+						</ol>
+					</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/andika-gumilang-6aa09b113/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/pgandika" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:andikapg19@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Andika Putra G</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
